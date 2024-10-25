@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.profile-pic {
+    border-radius: 50%;
+    border: 3px solid rgba(0, 217, 255, 0.938);
+}
+.sidebar-icon {
+    font-size: 1.5rem;
+}
+.sidebar-text {
+    font-size: 1rem;
+}
+.profile-stats {
+    font-weight: bold;
+}
+.profile-stats span {
+    margin-right: 10px;
+}
+
+.profile-actions button {
+    background-color: #2B2B2B;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.profile-actions button:hover {
+    background-color: #575757;
+}
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.AI {
+    padding: auto;
+    max-width: 20px;
+    letter-spacing: 30px;
+    border-radius: 20%;
+    font-size: large;
+    motion-offset: 0%;
+}
